@@ -1,0 +1,17 @@
+{
+  "name": "audit-fix-ship-generator",
+  "version": "1.0.0",
+  "description": "Issue-data-driven prompt generator for the audit-fix-ship workflow",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "generate": "tsx generate-prompts.mts",
+    "generate:dry": "tsx generate-prompts.mts --dry-run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

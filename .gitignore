@@ -4,3 +4,6 @@ dist/
 *.log
 .env
 .env.local
+
+# 40x Agent Manifest
+.codebase-manifest.json

@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-06-18T21:23:33.906Z",
+  "repo": "audit-fix-ship",
+  "repoPath": "/Users/dame/management-git/audit-fix-ship",
+  "domains": [
+    "doc-place"
+  ],
+  "github_sha": "a51712d4e62660b0d61a20b5c996372e27a206a6",
+  "verdict": "SHIP-WITH-FIXES",
+  "blockers": 0,
+  "findings": [
+    {
+      "severity": "minor",
+      "category": "missing-change-log",
+      "file": "docs/AGENTS-REFERENCE.md",
+      "message": "Missing embedded ## Change Log section",
+      "remedy": "Add ## Change Log at bottom of doc"
+    }
+  ],
+  "persist": "deferred"
+}

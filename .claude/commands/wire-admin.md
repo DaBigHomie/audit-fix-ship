@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/wire-admin.md -- do not edit; run sync-commands.mts -->
 # /wire-admin — Wire Admin Live API
 
 **Model:** claude-sonnet  

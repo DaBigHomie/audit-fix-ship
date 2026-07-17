@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/git-surface-align.md -- do not edit; run sync-commands.mts -->
 # /git-surface-align — Git Surface Alignment Audit (40X, multi-repo)
 
 Reconcile **every git surface** of one or more repos against a named target, classifying each as **ALIGN**, **REGRESS**, or **NEUTRAL**, so cleanup (prune / branch-delete / submodule-sync) never destroys live work and never leaves stale state behind.

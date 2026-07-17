@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/cortex-dispatch.md -- do not edit; run sync-commands.mts -->
 # /cortex-dispatch — Multi-Agent Orchestrator
 
 **Model:** claude-opus (orchestrator)  

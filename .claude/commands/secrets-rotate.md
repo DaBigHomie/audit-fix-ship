@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/secrets-rotate.md -- do not edit; run sync-commands.mts -->
 # /secrets-rotate — Secrets Rotation
 
 **Model:** claude-sonnet  

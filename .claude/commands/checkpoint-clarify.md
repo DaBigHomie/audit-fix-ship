@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/checkpoint-clarify.md -- do not edit; run sync-commands.mts -->
 # /checkpoint-clarify — Checkpoint Reconciliation & No-Regression Planner
 
 **Model:** claude-opus (orchestrator / synthesis lead)

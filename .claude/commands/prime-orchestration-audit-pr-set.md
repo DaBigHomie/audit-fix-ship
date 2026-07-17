@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-audit-pr-set.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-audit-pr-set — Audit N PRs across N repos (4-gate)
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation` (preset: `audit-pr-set`)

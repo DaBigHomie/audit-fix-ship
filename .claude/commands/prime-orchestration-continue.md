@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-continue.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-continue — Family-prefixed alias for /continue-cycles
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-delegate.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-delegate — Direct ARSENAL shape invocation (meta-command)
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation` (preset: `delegate-shape`)

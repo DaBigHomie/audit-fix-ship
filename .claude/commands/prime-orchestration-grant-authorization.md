@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-grant-authorization.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-grant-authorization — Grant a standing authorization
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-query-cortex.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-query-cortex — Return a canonical CORTEX read pattern (SQL)
 
 **Model:** claude-opus (orchestrator) · **Skill:** `cortex-query-patterns`

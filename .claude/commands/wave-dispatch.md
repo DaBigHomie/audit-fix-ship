@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/wave-dispatch.md -- do not edit; run sync-commands.mts -->
 # /wave-dispatch — Cloud Wave Executor (model-routed, scheduled)
 
 **Model:** claude-opus (orchestrator) + claude-haiku (mechanical fan-out) + claude-sonnet (judgement triage)

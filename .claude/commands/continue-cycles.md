@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/continue-cycles.md -- do not edit; run sync-commands.mts -->
 # /continue-cycles — Orchestrator-handoff entry-point
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

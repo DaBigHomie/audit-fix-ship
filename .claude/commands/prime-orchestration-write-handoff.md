@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-write-handoff.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-write-handoff — Write a resumable handoff to CORTEX (SSOT)
 
 **Model:** claude-opus (orchestrator) · **Skill:** `handoff-cloud-direct`

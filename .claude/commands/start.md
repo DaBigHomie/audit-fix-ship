@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/start.md -- do not edit; run sync-commands.mts -->
 # /start — ATB Session Startup (Prime Boot)
 
 Run this at the start of every session on the `atl-table-booking-app` repo.

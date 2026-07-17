@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/mobile-checklist.md -- do not edit; run sync-commands.mts -->
 # /mobile-checklist — Mobile Release Gate
 
 **Model:** human-gated (W0) + claude-sonnet for config validation (W1-W5)  

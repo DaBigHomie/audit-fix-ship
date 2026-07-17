@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/fsd-migrate.md -- do not edit; run sync-commands.mts -->
 # /fsd-migrate — FSD Service Layer Migration
 
 **Model:** claude-sonnet (worktree isolation recommended)  

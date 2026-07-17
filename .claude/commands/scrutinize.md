@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/scrutinize.md -- do not edit; run sync-commands.mts -->
 # /scrutinize — Deep code review (logic, security, edge cases)
 
 **Spec:** `~/.cursor/skills/scrutinize/SKILL.md`

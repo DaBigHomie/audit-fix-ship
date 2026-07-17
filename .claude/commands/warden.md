@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/warden.md -- do not edit; run sync-commands.mts -->
 # /warden — WARDEN continuous artifact scrutiny
 
 **Agent:** CORTEX `583` (Sovereign Completion)  

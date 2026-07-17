@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-continue-prime.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-continue-prime — Prime-scope standing menu
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

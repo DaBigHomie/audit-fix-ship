@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/ci-green.md -- do not edit; run sync-commands.mts -->
 # /ci-green — CI Green
 
 **Model:** claude-sonnet  

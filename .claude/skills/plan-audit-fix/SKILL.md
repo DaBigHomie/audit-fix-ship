@@ -5,7 +5,6 @@ description: >-
   peer handoffs, then (2) audit-fix-plan inline fixes. Use when the user says
   "create plan then audit-fix", "plan and audit-fix", or when a doc may drift
   from origin/main or conflict with another agent's closeout.
-disable-model-invocation: true
 ---
 <!-- GENERATED FROM maximus-ai/skills/plan-audit-fix/SKILL.md -- do not edit; run sync-skills.mts -->
 

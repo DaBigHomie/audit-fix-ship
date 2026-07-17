@@ -28,10 +28,10 @@ All other commands (validate, audit, scan, fix, status) exist to **support** thi
 | Name | `@dabighomie/ugwtf` |
 | Version | `1.0.0` |
 | Registry | npm (public) |
-| Local dev command | `cd ~/management-git/ugwtf && npx tsx src/index.ts <command>` |
+| Local dev command | `npx tsx src/index.ts <command>` |
 | Published command | `npx @dabighomie/ugwtf <command>` |
 | Update mechanism | Git tag `v*` → `release.yml` → npm publish + GitHub release |
-| CHANGELOG | `/Users/dame/management-git/ugwtf/CHANGELOG.md` |
+| CHANGELOG | `CHANGELOG.md` |
 
 ---
 
@@ -322,7 +322,7 @@ Labels are a **one-time setup operation** per repo, performed as part of `instal
 
 - Same instruction files are read by GitHub Copilot cloud agents.
 - Workflows in `.github/workflows/` enforce naming, metadata, and quality gates automatically.
-- `enforce-naming-convention.yml` blocks PRs/issues without proper titles and metadata.
+- Repository workflows and checks block or flag PRs/issues that do not meet required title and metadata conventions, when configured.
 
 ### Enforcement Checklist
 
@@ -339,7 +339,7 @@ Before any PR merge, ALL of the following must be true:
 
 ## 11. Pipeline Operations
 
-> For the full pipeline runbook (commands, troubleshooting, common operations), see **[`docs/agent-guide/10-PIPELINE-OPERATIONS.md`](agent-guide/10-PIPELINE-OPERATIONS.md)**.
+> For the full pipeline runbook (commands, troubleshooting, common operations), see **[`docs/agent-guide/10-PIPELINE-OPERATIONS.md`](../../docs/agent-guide/10-PIPELINE-OPERATIONS.md)**.
 
 ---
 

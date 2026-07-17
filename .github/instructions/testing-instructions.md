@@ -109,10 +109,11 @@ Trigger when ANY of these change:
 
 ## CI Pipeline Integration
 
-The `ci.yml` workflow runs:
-1. **quality-gates** (blocking): `type-check` → `lint` → `build`
-2. **unit-tests** (blocking): `npm test`
-3. **e2e** (non-blocking, **scoped**): runs only relevant specs
+The current `.github/workflows/ci.yml` workflow runs:
+1. **checkout**: `actions/checkout@v4`
+2. **Node.js setup**: `actions/setup-node@v4` (node 20, no package cache — this repo has no `package.json`)
+
+Quality-gate steps (`type-check`, `lint`, `build`, `npm test`) should be added to `ci.yml` once this repo introduces a `package.json` with the corresponding scripts.
 
 ### Smart E2E Scoping (043)
 

@@ -3,6 +3,7 @@ description: "Fork a session with the branch-guard agent to create branches, che
 agent: "branch-guard"
 argument-hint: "What branch operation? (create, check, prepare-pr)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/guard-branch.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Branch Guard Session
 

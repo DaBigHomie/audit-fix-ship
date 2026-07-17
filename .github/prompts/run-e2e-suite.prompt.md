@@ -2,6 +2,7 @@
 description: "Run the critical E2E test suite for the current repo and report structured results"
 agent: "playwright-runner"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/run-e2e-suite.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Run E2E Test Suite
 

@@ -1,6 +1,7 @@
 ---
 description: "Execute PRIME-PLUGIN-50X-DEPLOYMENT-PLAN waves 0–6 with IDE surface agent lanes. Use for issue MP-WG-005."
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/MP-WG-005-plugin-50x-deploy.prompt.md -- do not edit; run sync-agents.mts -->
 
 # MP-WG-005 — Prime Plugin 50x Deployment
 

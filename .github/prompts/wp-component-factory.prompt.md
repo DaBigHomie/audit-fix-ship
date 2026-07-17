@@ -3,6 +3,7 @@ description: "Generate Next.js components from WordPress templates with design-s
 agent: "wp-component-factory"
 argument-hint: "Component type to generate — e.g. 'header', 'hero', 'post-card', 'acf-flexible', 'gutenberg-blocks' or 'all'"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/wp-component-factory.prompt.md -- do not edit; run sync-agents.mts -->
 
 # WP Component Factory
 

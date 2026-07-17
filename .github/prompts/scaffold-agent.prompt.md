@@ -2,6 +2,7 @@
 description: "Scaffold a new VS Code custom agent with naming convention and quality scoring"
 argument-hint: "What kind of agent to create (e.g., 'database migration agent')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/scaffold-agent.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Scaffold Agent
 

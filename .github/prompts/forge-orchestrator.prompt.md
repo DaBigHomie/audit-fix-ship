@@ -2,6 +2,7 @@
 description: "Run Content Forge (Swarm-18) orchestration — mode pick, sequencing, delegation to sai-post-production and specialists."
 argument-hint: "Session id, asset path, or brief goal (e.g. 'markers on build #42 to Shorts')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/forge-orchestrator.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Forge orchestrator shortcut
 

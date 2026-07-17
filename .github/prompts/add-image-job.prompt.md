@@ -3,6 +3,7 @@ description: "Add a new ImageJob to the 30x manifest with proper scene compositi
 agent: "image-gen"
 argument-hint: "Describe the image (e.g. 'hero for FAQ page, 16:9, navy tee flat-lay on marble')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/add-image-job.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Add Image Job
 

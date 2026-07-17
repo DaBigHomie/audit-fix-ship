@@ -1,6 +1,7 @@
 ---
 description: "Run forensic doc inventory after WARDEN/supabase/plugin changes. MP-WG-006."
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/MP-WG-006-doc-forensic-inventory.prompt.md -- do not edit; run sync-agents.mts -->
 
 # MP-WG-006 — Forensic Doc Inventory (Multi-Surface)
 

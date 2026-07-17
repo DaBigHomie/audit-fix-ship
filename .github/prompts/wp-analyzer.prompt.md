@@ -3,6 +3,7 @@ description: "Analyze a WordPress site and produce a migration manifest: content
 agent: "wp-analyzer"
 argument-hint: "WordPress site URL, local WP path, or path to WXR XML export"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/wp-analyzer.prompt.md -- do not edit; run sync-agents.mts -->
 
 # WP Analyzer
 

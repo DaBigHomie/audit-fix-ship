@@ -3,6 +3,7 @@ description: "Generate elite UI components: cursor-reactive surfaces, magnetic b
 agent: "design-system-god"
 argument-hint: "Describe the component or effect you want (e.g. 'magnetic CTA button', 'animated mesh gradient hero', 'char-split scroll reveal heading')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/design-system-god.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Design System God
 

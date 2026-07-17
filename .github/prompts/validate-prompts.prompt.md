@@ -3,6 +3,7 @@ description: "Validate prompts against the 24-point UGWTF gold standard and repo
 agent: "prompt-validator"
 argument-hint: "Which chain or prompt directory to validate? (e.g., chain-7-scrollytelling, or a full path)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/validate-prompts.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Validate Prompts
 

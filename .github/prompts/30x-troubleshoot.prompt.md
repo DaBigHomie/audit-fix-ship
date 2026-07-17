@@ -3,6 +3,7 @@ description: "30x troubleshooting — diagnose errors, blast radius analysis, ph
 argument-hint: "Paste the error output, or describe the issue"
 agent: "30x-troubleshoot"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/30x-troubleshoot.prompt.md -- do not edit; run sync-agents.mts -->
 
 # 30x Troubleshoot
 

@@ -2,6 +2,7 @@
 description: "Generate MALFIG-compatible IDE workspaces (Antigravity, Cursor, VS Code) plus projects.json and .handoff.config.json for a repo under ~/management-git. Use when onboarding a new sibling clone or refreshing workspace files after a stack change."
 argument-hint: "Repo slug (directory name under ~/management-git). Example: career-corpus"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/generate-workspace.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Generate Workspace (`/generate-workspace`)
 

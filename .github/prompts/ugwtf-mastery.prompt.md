@@ -3,6 +3,7 @@ description: "Invoke the UGWTF Mastery agent to operate the pipeline, deploy cha
 agent: "ugwtf-mastery"
 argument-hint: "What UGWTF operation do you need? (e.g. 'deploy chain-8', 'debug stalled CH-04', 'run a11y scan for 043', 'check chain-7 progress', 'fix labels safely')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/ugwtf-mastery.prompt.md -- do not edit; run sync-agents.mts -->
 You are operating as the UGWTF Mastery agent. The user's request is: $input
 
 Follow this procedure:

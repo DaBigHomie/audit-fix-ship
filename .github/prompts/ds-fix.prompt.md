@@ -3,6 +3,7 @@ description: "Fix design system violations in a specific dimension"
 agent: "ds-orchestrator"
 argument-hint: "Dimension + repo (e.g., 'tokens 043', 'typography maximus')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/ds-fix.prompt.md -- do not edit; run sync-agents.mts -->
 Fix design system violations for the specified dimension in the target repo.
 
 1. Run the dimension-specific audit first to get current violations

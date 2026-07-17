@@ -3,6 +3,7 @@ description: "Extract WordPress content to Next.js formats: posts to MDX, pages 
 agent: "wp-content-pipeline"
 argument-hint: "Source (URL, local WP path, or XML) and output directory — e.g. https://example.com --output src/content"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/wp-content-pipeline.prompt.md -- do not edit; run sync-agents.mts -->
 
 # WP Content Pipeline
 

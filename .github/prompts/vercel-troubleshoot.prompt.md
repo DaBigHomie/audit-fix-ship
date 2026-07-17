@@ -3,6 +3,7 @@ description: "Troubleshoot Vercel build errors, warnings, and deployment failure
 agent: "vercel-doctor"
 argument-hint: "Paste build log or describe the error"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/vercel-troubleshoot.prompt.md -- do not edit; run sync-agents.mts -->
 Diagnose and fix the Vercel build issue described below.
 
 **Steps:**

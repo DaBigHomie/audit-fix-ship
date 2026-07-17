@@ -2,6 +2,7 @@
 description: "Session teardown for the documentation-standards hub: verify state, write Context Manifest, optional Slack via webhook and/or bot API. Use when: ending a session, cross-repo handoff, publishing standards updates."
 argument-hint: "Optional path or alias; omit to use git root from cwd (this repository)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/exit.prompt.md -- do not edit; run sync-agents.mts -->
 
 # /exit — Session Teardown (documentation-standards)
 

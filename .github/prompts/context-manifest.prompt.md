@@ -2,6 +2,7 @@
 description: "Generate a Context Manifest for the documentation-standards hub (docs, templates, scripts, cross-repo indexes). Use when: handing off work, checkpointing, onboarding an agent to this repo."
 argument-hint: "Optional; default = git root from cwd (this repository)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/context-manifest.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Context Manifest Generator (documentation-standards)
 

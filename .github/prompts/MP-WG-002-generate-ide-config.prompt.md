@@ -2,6 +2,7 @@
 description: "Implement generate-ide-config.mts — multi-surface MCP/config from repo-infra-registry.json (closes GAP-MCP-01). Use when implementing MP-WG-002."
 argument-hint: "Repo slug e.g. atl-table-booking-app"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/MP-WG-002-generate-ide-config.prompt.md -- do not edit; run sync-agents.mts -->
 
 # MP-WG-002 — Multi-Surface IDE Config Generator
 

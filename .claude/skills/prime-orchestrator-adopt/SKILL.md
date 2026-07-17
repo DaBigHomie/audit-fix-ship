@@ -15,6 +15,7 @@ description: >-
   un-queued work".
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/prime-orchestrator-adopt/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # prime-orchestrator-adopt
 

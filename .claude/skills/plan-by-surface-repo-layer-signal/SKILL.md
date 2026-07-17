@@ -17,6 +17,7 @@ description: >-
   plan DAG", or "queued items plan".
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/plan-by-surface-repo-layer-signal/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # plan-by-surface-repo-layer-signal
 

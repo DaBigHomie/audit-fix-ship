@@ -12,6 +12,7 @@ description: >
   push/overwrite/break", "dry run first", "scenario", "second opinion".
   Run this before destructive or multi-repo/multi-machine actions.
 ---
+<!-- GENERATED FROM maximus-ai/skills/forecast-scrutiny/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # forecast-scrutiny
 

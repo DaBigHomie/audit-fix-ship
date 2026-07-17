@@ -10,6 +10,7 @@ description: >-
   Use worktrees for new edits. Pair with repo-sync-guard before land/merge.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/session-status/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # Session-Status (`/session-status`)
 

@@ -7,6 +7,7 @@ description: >-
   from origin/main or conflict with another agent's closeout.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/plan-audit-fix/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # plan-audit-fix
 

@@ -17,6 +17,7 @@ description: >-
   human pick per the auto-dispatch policy in the runbook §7.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/orchestrator-continuation/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # orchestrator-continuation
 

@@ -7,6 +7,7 @@ description: >-
   exit, end session, or closeout with handoff to Slack.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/exit/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # Session exit (`/exit`)
 

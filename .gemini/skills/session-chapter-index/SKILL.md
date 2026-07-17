@@ -18,6 +18,7 @@ description: >-
   actual documentation artifacts.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/session-chapter-index/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # session-chapter-index
 

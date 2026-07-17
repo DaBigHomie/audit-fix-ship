@@ -14,6 +14,7 @@ description: >-
   suite", "run the handoff pipeline", "execute-only", "framework guard".
 disable-model-invocation: false
 ---
+<!-- GENERATED FROM maximus-ai/skills/handoff-framework-guard/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # handoff-framework-guard
 

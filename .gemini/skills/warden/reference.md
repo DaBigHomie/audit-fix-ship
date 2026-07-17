@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/skills/warden/reference.md -- do not edit; run sync-skills.mts -->
 # WARDEN reference — DOC-PLACEMENT policy
 
 From `maximus-ai/docs/WARDEN-ARCHITECTURE.md` sec 4.

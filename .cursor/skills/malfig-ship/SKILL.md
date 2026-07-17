@@ -10,6 +10,7 @@ description: >
   merge", "land this branch", "open a PR and merge when green". BOUNDARY: MALFIG owns CI/Vercel
   /hooks — this skill runs the LOCAL gates and drives the PR/merge; it does not author CI.
 ---
+<!-- GENERATED FROM maximus-ai/skills/malfig-ship/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # malfig-ship
 

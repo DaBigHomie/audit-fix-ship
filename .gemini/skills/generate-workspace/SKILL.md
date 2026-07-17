@@ -8,6 +8,7 @@ description: >-
   workspaces for <repo>", or onboards a new sibling clone.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/generate-workspace/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # Workspace Factory (`/generate-workspace`)
 

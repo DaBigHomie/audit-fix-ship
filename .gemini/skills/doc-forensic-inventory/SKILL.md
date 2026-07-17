@@ -7,6 +7,7 @@ description: >-
   doc inventory, forensic pass, stale docs, what docs need updating, doc drift.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/doc-forensic-inventory/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # doc-forensic-inventory
 

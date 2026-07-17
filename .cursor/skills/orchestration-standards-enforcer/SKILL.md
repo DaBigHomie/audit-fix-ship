@@ -17,6 +17,7 @@ description: >-
   "sync orchestration policy".
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/orchestration-standards-enforcer/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # orchestration-standards-enforcer
 

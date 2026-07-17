@@ -17,6 +17,7 @@ description: >-
   or "show me the session's five-section board".
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/claude-board/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # claude-board
 

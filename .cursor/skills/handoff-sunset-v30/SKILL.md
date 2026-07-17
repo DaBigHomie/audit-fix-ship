@@ -11,6 +11,7 @@ description: >-
   "sunset handoff", "session manifest", "handoff 3.0", "@exit", or "write the baton".
 disable-model-invocation: false
 ---
+<!-- GENERATED FROM maximus-ai/skills/handoff-sunset-v30/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # handoff-sunset-v30
 

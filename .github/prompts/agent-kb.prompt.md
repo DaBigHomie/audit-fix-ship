@@ -3,6 +3,7 @@ description: "Initialize Agent KB session — query current state, route task, o
 agent: "agent-kb"
 argument-hint: "<repo-alias> [task description or query]"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/agent-kb.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Agent KB
 

@@ -3,6 +3,7 @@ description: "Preserve WordPress SEO equity during Next.js migration: generate 3
 agent: "wp-seo-migrator"
 argument-hint: "WordPress site URL and/or path to migration-manifest.json"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/wp-seo-migrator.prompt.md -- do not edit; run sync-agents.mts -->
 
 # WP SEO Migrator
 

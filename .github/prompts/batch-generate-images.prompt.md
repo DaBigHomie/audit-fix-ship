@@ -3,6 +3,7 @@ description: "Generate all images in a manifest category, convert to WebP, and d
 agent: "image-gen"
 argument-hint: "Category name (heroes, products, story, bigmen, categories, accessories, social, collections, gallery)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/batch-generate-images.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Batch Generate Category
 

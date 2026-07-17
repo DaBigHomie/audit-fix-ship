@@ -2,6 +2,7 @@
 description: "30x handoff review — audit docs, UGWTF PR/issue sweep, create task prompts, update scoreboard & roadmap"
 agent: "agent"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/review-handoff.prompt.md -- do not edit; run sync-agents.mts -->
 
 # 30x Handoff Review Session
 

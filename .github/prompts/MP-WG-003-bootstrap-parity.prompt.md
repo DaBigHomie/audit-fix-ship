@@ -2,6 +2,7 @@
 description: "Bootstrap Maximus Prime governance to T1 repos with multi-surface parity audit gate. Use when implementing MP-WG-003."
 argument-hint: "Tier e.g. T1"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/MP-WG-003-bootstrap-parity.prompt.md -- do not edit; run sync-agents.mts -->
 
 # MP-WG-003 — Bootstrap + IDE Parity Gate
 

@@ -3,6 +3,7 @@ description: "Run a full WordPress to Next.js migration pipeline: analyze, extra
 agent: "wp-migration"
 argument-hint: "WordPress site URL or path to WP XML export — e.g. https://example.com or ./export.xml"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/wp-migration.prompt.md -- do not edit; run sync-agents.mts -->
 
 # WP Migration Orchestrator
 

@@ -3,6 +3,7 @@ description: "Fork a session with the playwright-fixer agent to fix failing E2E 
 agent: "playwright-fixer"
 argument-hint: "Paste the failing test name or spec file path"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/fix-failing-tests.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Fix Failing E2E Tests
 

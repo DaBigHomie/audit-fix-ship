@@ -2,6 +2,7 @@
 description: "Report current 30x manifest status — job counts, generated vs deployed, missing images. Use when: checking image pipeline health, auditing assets, planning next generation batch."
 agent: "image-gen"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/image-pipeline-status.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Image Pipeline Status
 

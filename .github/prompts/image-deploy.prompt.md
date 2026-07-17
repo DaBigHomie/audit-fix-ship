@@ -3,6 +3,7 @@ description: "Generate a 30x image, convert to WebP, deploy to o43, wire into co
 agent: "image-gen"
 argument-hint: "Job ID to generate (e.g. returns-hero, account-dashboard-hero)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/image-deploy.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Image Deploy Workflow
 

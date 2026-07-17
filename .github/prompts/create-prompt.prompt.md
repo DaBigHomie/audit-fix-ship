@@ -3,6 +3,7 @@ description: "Create new prompt files from text, docs, code, or ideas using the 
 agent: "prompt-creator"
 argument-hint: "Describe the feature, paste code, or provide docs to convert into a prompt"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/create-prompt.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Create Prompt
 

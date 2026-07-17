@@ -3,6 +3,7 @@ description: "Auto-fix prompts to pass 24-point UGWTF validation by injecting mi
 agent: "prompt-fixer"
 argument-hint: "Which chain or prompt directory to fix? (e.g., chain-7-scrollytelling)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/fix-prompts.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Fix Prompts
 

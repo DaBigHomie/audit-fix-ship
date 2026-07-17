@@ -3,6 +3,7 @@ description: "Fork a session with the deploy-gate agent to run pre-commit qualit
 agent: "deploy-gate"
 argument-hint: "Which repo to validate? (damieus, 043, ffs, maximus, or auto-detect)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/run-quality-gates.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Run Quality Gates
 

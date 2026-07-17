@@ -7,6 +7,7 @@ description: >-
 tools: Read, Grep, Glob, Shell
 model: inherit
 ---
+<!-- GENERATED FROM maximus-ai/.github/agents/doc-forensic-auditor.agent.md -- do not edit; run sync-agents.mts -->
 
 # doc-forensic-auditor
 

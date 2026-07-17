@@ -2,6 +2,7 @@
 description: "Run full session cleanup: verify commits, clean branches/worktrees, close terminals, and generate a combined Context Manifest + Handoff document. Use at end of every CLI session."
 argument-hint: "Which repo(s) to clean up? (damieus, 043, ffs, maximus, cae, ugwtf, handoff, or 'all')"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/session-cleanup.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Session Cleanup & Handoff Generator
 

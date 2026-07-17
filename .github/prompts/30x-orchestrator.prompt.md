@@ -3,6 +3,7 @@ description: "Create a cohesive agent + prompt + skill bundle. Combines /create-
 agent: "30x-orchestrator"
 argument-hint: "Describe the agent/prompt/skill you want to create"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/30x-orchestrator.prompt.md -- do not edit; run sync-agents.mts -->
 
 # 30x Orchestrator
 

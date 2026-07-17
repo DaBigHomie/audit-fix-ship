@@ -1,6 +1,7 @@
 ---
 description: "Wire WARDEN doc-place into .githooks/pre-commit across T1 repos. Use when implementing MP-WG-004."
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/MP-WG-004-warden-precommit.prompt.md -- do not edit; run sync-agents.mts -->
 
 # MP-WG-004 — WARDEN Pre-Commit (Multi-Surface)
 

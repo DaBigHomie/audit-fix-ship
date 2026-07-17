@@ -3,6 +3,7 @@ description: "Run a full 30x design system audit on a repo"
 agent: "ds-orchestrator"
 argument-hint: "Repo alias or path (e.g., 043, maximus, ffs)"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/ds-audit.prompt.md -- do not edit; run sync-agents.mts -->
 Run a full 30x design system audit on the specified repo.
 
 1. `cd` into the repo directory

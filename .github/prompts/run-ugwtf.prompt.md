@@ -3,6 +3,7 @@ description: "Run UGWTF CLI — labels, deploy, validate, issues, prs, audit, fi
 agent: "agent"
 argument-hint: "e.g. audit damieus --verbose"
 ---
+<!-- GENERATED FROM maximus-ai/.github/prompts/run-ugwtf.prompt.md -- do not edit; run sync-agents.mts -->
 
 # Run UGWTF
 

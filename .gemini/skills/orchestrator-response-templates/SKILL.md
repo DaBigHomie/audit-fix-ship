@@ -13,6 +13,7 @@ description: >-
   `orchestrator-continuation` (BG-GGG process) and the MMTA MCP tools (BG-HHH).
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/orchestrator-response-templates/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # orchestrator-response-templates
 

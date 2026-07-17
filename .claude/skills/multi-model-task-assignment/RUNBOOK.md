@@ -7,6 +7,7 @@ created: 2026-07-07
 status: active
 tags: [mmta, runbook, orchestration, prime-orchestration, wave-delivery, loop-goal, patterns]
 ---
+<!-- GENERATED FROM maximus-ai/skills/multi-model-task-assignment/RUNBOOK.md -- do not edit; run sync-skills.mts -->
 
 # multi-model-task-assignment — RUNBOOK
 

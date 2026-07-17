@@ -2,6 +2,7 @@
 name: technical-solution-architecture
 description: Produce a rigorous Technical Solution Architecture (TSA) document for a system, tool, or platform, then VALIDATE it (documentation-standards) and SCRUTINIZE it (adversarial review). Use whenever the user says "architect this", "solution architecture", "TSA", "design doc", "write the architecture", "plan and create <tool>", or asks to design a non-trivial system before building. Bundles the /validate-doc and /scrutinize steps so no architecture ships unchecked. Mirrors the house format in project-polaris/docs/POLARIS-ARCHITECTURE.md.
 ---
+<!-- GENERATED FROM maximus-ai/skills/technical-solution-architecture/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # Technical Solution Architecture (TSA)
 

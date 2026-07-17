@@ -2,6 +2,7 @@
 name: goals
 description: Define a goal and drive it through the standard delivery lifecycle — goals → spec → fix → pr → malfig → merge → completions. Records the goal and every stage to CORTEX as an index row (never the body). Use when the user says "/goals", "create a goal", "set a goal", "new goal", or wants a unit of work tracked from intent to completion through the MALFIG gate.
 ---
+<!-- GENERATED FROM maximus-ai/skills/goals/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # /goals — goal → completion lifecycle
 

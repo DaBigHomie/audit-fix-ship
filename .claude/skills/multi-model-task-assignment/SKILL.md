@@ -11,6 +11,7 @@ description: >
   or any task that mentions multiple repos/agents working in parallel.
   Always run this before dispatching work that touches more than one file, repo, or agent surface.
 ---
+<!-- GENERATED FROM maximus-ai/skills/multi-model-task-assignment/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # multi-model-task-assignment
 

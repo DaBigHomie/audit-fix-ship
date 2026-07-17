@@ -14,6 +14,7 @@ description: >
   it never deploys, pushes, applies migrations, or writes a tracked file. Run forecast-scrutiny
   before any --remediate.
 ---
+<!-- GENERATED FROM maximus-ai/skills/repo-sync-guard/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # repo-sync-guard
 

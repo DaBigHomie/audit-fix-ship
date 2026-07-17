@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/skills/generate-workspace/reference.md -- do not edit; run sync-skills.mts -->
 # generate-workspace — Reference
 
 Full schema and merge semantics for the workspace factory.

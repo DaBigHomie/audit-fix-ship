@@ -6,6 +6,7 @@ description: >-
   /scrutinize, deep review, logic audit, security review, or edge-case check.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/scrutinize/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # SCRUTINIZE (`/scrutinize`)
 

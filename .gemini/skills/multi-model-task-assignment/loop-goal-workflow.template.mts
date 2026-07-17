@@ -1,3 +1,4 @@
+// GENERATED FROM maximus-ai/skills/multi-model-task-assignment/loop-goal-workflow.template.mts -- do not edit; run sync-skills.mts
 // Template — Shape A: dynamic risk-routing loop, cheap background agents (loops + goals).
 // Version: 1.1.0 (2026-07-07) — augmented with wave-orchestration Patterns A-I.
 // See multi-model-task-assignment/SKILL.md Step 3 for when to use this vs Shape B (static tiered pipeline).

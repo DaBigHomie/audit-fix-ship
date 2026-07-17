@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/skills/exit/README.md -- do not edit; run sync-skills.mts -->
 # Exit skill (canonical copy)
 
 This folder mirrors the Cursor skill used at session close (`/exit`). Cursor loads skills from `~/.cursor/skills/exit/` on your machine.

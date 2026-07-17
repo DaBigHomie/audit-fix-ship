@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/skills/exit/reference.md -- do not edit; run sync-skills.mts -->
 # Exit skill — reference
 
 ## Agent doc rules (token savings)

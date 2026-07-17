@@ -14,6 +14,7 @@ description: >-
   "handoff MCP unavailable", "resumable handoff SSOT", "durable handoff".
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/handoff-cloud-direct/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # handoff-cloud-direct
 

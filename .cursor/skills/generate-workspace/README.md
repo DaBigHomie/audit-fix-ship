@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/skills/generate-workspace/README.md -- do not edit; run sync-skills.mts -->
 # generate-workspace skill (canonical copy)
 
 This folder is the canonical source for the **`/generate-workspace`** skill —

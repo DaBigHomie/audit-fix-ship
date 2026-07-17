@@ -17,6 +17,7 @@ description: >-
   SQL pattern".
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/cortex-query-patterns/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # cortex-query-patterns
 

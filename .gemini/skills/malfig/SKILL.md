@@ -6,6 +6,7 @@ description: >-
   policy review, gate this change, or pre-commit gatekeeper check.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/malfig/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # MALFIG (`/malfig`)
 

@@ -7,6 +7,7 @@ description: >-
   before merge.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/warden/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # WARDEN (`/warden`)
 

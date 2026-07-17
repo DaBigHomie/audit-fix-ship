@@ -19,6 +19,7 @@ description: >-
   routing hints per workflow-assembly-pattern-combine-skills.
 disable-model-invocation: true
 ---
+<!-- GENERATED FROM maximus-ai/skills/prime-orchestrator-diagnose/SKILL.md -- do not edit; run sync-skills.mts -->
 
 # prime-orchestrator-diagnose (`/prime-orchestration-diagnose-session`)
 

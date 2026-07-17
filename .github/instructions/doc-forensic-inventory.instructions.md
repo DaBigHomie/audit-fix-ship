@@ -1,6 +1,7 @@
 ---
 applyTo: "**/docs/**,**/skills/**,**/*WARDEN*,**/*warden*"
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/doc-forensic-inventory.instructions.md -- do not edit; run sync-instructions.mts -->
 
 # doc-forensic-inventory — Antigravity
 

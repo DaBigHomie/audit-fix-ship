@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.github/instructions/cursor-board-gen.instructions.md -- do not edit; run sync-instructions.mts -->
 # cursor-board-gen (Antigravity)
 
 Generate design boards from chat via Cursor **GenerateImage** + prompt SSOT.

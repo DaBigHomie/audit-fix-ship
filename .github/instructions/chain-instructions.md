@@ -1,6 +1,7 @@
 ---
 applyTo: "**"
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/chain-instructions.md -- do not edit; run sync-instructions.mts -->
 
 # Prompt Chain System Reference
 

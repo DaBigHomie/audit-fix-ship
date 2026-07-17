@@ -1,6 +1,7 @@
 ---
 applyTo: "**"
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/ci-instructions.md -- do not edit; run sync-instructions.mts -->
 
 # CI Pipeline Reference
 

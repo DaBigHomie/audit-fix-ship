@@ -1,6 +1,7 @@
 ---
 applyTo: "**"
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/testing-instructions.md -- do not edit; run sync-instructions.mts -->
 
 # Testing Instructions — UGWTF Standard
 

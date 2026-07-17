@@ -4,6 +4,7 @@ version: 1.0.1
 updated: 2026-07-08
 applies_to: '**'
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/orchestration-standards.instructions.md -- do not edit; run sync-instructions.mts -->
 
 <!-- BEGIN: orchestration-standards-enforcer (source: documentation-standards/skills/orchestration-standards-enforcer/SKILL.md) -->
 ## Orchestration Standards (MALFIG-aligned)

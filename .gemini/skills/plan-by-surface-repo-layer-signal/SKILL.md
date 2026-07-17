@@ -1,7 +1,7 @@
 ---
 name: plan-by-surface-repo-layer-signal
-version: "1.1.1"
-updated: 2026-07-14
+version: "1.1.2"
+updated: 2026-07-17
 canonical_basis: documentation-standards/skills/plan-by-surface-repo-layer-signal/SKILL.md
 description: >-
   Categorize a queued backlog of items along four axes — SURFACE (one of the
@@ -15,7 +15,6 @@ description: >-
   doc-forensic-inventory → merge). Use when the user says "plan by surface",
   "categorize backlog", "sequenced plan", "surface repo layer signal", "master
   plan DAG", or "queued items plan".
-disable-model-invocation: true
 ---
 <!-- GENERATED FROM maximus-ai/skills/plan-by-surface-repo-layer-signal/SKILL.md -- do not edit; run sync-skills.mts -->
 
@@ -417,3 +416,4 @@ Each sub-plan embeds the §Same-workflow-logic execution recipe verbatim.
 | 1.0.0 | 2026-07-07 | plan-by-surface authoring dispatch | Initial skill — categorize backlog by surface/repo/layer/signal + emit master + per-repo plan docs with embedded execution recipe |
 | 1.1.0 | 2026-07-14 | audit-fix-plan (prime-orchestration-adapt) | Portable CORTEX access (creds-direct fallback) + authority-plan fail-closed precheck + fresh-worktree/dry-run guard + UPSERT on_conflict contract + project-scope rail (no ATB project) + portable authority path + Tier-2 regeneration note |
 | 1.1.1 | 2026-07-14 | audit-fix-plan (Tier-1 backport) | Fixed two residual path defects verified on disk — forensic-auditing (`$MGMT_ROOT/plugins/...` -> `$HOME/.claude/skills/`) and human-approval-gate (`$HOME/.claude/skills/...` -> repo-local `.claude/skills/`); added verify-on-resolve WARNING for hub-unlanded rows (Tier-1 skill, DOC-TYPE-RUBRIC) + absent authority plan. Backport from career-corpus PR #48 (task_pbss_backport_tier1_canonical). |
+| 1.1.2 | 2026-07-17 | wave-f follow-up (task_docstd_skill_flag_flip_20260717) | Removed disable-model-invocation flag so the skill is Skill-tool invocable; matches user-scope fix applied 2026-07-17 |

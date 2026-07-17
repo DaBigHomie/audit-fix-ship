@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node ../.agent-kb/db/node_modules/tsx/dist/cli.mjs .cursor/hooks/prime-session-start.mts"
+      }
+    ],
+    "stop": [
+      {
+        "command": "node ../.agent-kb/db/node_modules/tsx/dist/cli.mjs .cursor/hooks/prime-session-stop.mts",
+        "loop_limit": 1
+      }
+    ]
+  }
+}

@@ -7,7 +7,8 @@ description: >
   to be routed to a specific MAXIMUS AI agent (1–580), cluster (1–34), or swarm (A/B/C/D/E/GOV).
   Triggers: "who should do this", "assign to the right model", "route this task", "blast radius",
   "which agent handles", "forge routing", "which swarm", "model assignment", "custom agent research",
-  "40x assignment", or any task that mentions multiple repos/agents working in parallel.
+  "40x assignment", "cheap background agents", "loop until dry", "workflow dispatch", "goals-driven loop",
+  or any task that mentions multiple repos/agents working in parallel.
   Always run this before dispatching work that touches more than one file, repo, or agent surface.
 ---
 
@@ -15,6 +16,26 @@ description: >
 
 Route any task to the correct model + MAXIMUS AI agent using the real cluster/swarm/Forge data
 from CORTEX. Compute blast radius before dispatch. Save all assignments to CORTEX.
+
+## Step 0 — Orchestrator execution rule (updated 2026-07-04)
+
+The legacy doctrine "Opus orchestrates only; file work goes to subagents" is superseded for
+Mythos-class orchestrators (Claude Fable 5 / Mythos 5). The orchestrator is fully capable of
+direct file work; **delegation is a token-economy and parallelism decision, not a capability
+limit.** Apply this decision table before Step 1:
+
+| Condition | Route |
+|---|---|
+| Task is small, high-precision, or single-file (≤ ~3 files) | Orchestrator executes DIRECTLY — a subagent brief would cost more tokens than the edit |
+| Verification/context that feeds an orchestrator decision | Orchestrator (or cheap read-only Explore agent if multi-file sweep) |
+| Mechanical/bulk/repetitive (codemods, renames, doc sweeps) | haiku subagent |
+| Feature slice, multi-file cascade, ~5–15 files | sonnet subagent |
+| Independent workstreams that can run concurrently | Parallel subagents (one message, disjoint write targets) |
+| Cross-repo architecture, P0 security, irreversible ops | Orchestrator directly (Fable/Opus tier) — do not delegate judgment |
+| Open-ended sweep/audit/migration across an unknown-N of files, "find and fix until clean" | `Workflow` tool, cheap (haiku) background agents in a loop + explicit-goals shape (see Step 3) — only when the user has opted into multi-agent orchestration |
+
+Rules that still hold: disjoint write targets per agent; constraints baked inline in briefs;
+`git status --short` before dispatch; stand down if another live session owns the tree.
 
 ---
 
@@ -78,7 +99,55 @@ planning / unclassified → Claude for Mac  → —     → Interactive, needs y
 
 ---
 
-## Step 3 — MAXIMUS AI agent lookup
+## Step 3 — Workflow dispatch: cheap background agents (loops + goals)
+
+Extends Step 2. Reach for the `Workflow` tool instead of a single Forge tool surface when the task is
+open-ended or bulk-shaped rather than a fixed edit — audits, cross-repo sweeps, migrations across an
+unknown-N of files, "find and fix until clean." **Gate:** this skill recommends the pattern; it does not
+authorize spawning one uninvited. Only dispatch a Workflow when the user has explicitly opted in (named
+the keyword, asked for multi-agent orchestration, or invoked a skill/command that calls Workflow).
+
+Two proven shapes exist on disk — mine one of these before authoring a third:
+
+**Shape A — dynamic risk-routing loop** (`multi-model-audit-fix.mts`): declare explicit GOALS (G1..Gn) in
+a comment block above the script — the loops exist to satisfy the goals, not the reverse. Loop-until-dry
+over N independent lenses/finders with a dedup `seen` Set keyed on `lens::location::claim`; then
+`pipeline()` each fresh finding through ROUTE (blast radius → risk, this skill's Step 1) → FIX-or-FLAG via
+a `routeToModel(risk, finding)` function driven by the Step 5 assignment matrix → verify-loop with an
+independent attempt cap. Use when the total finding count is unknown up front.
+
+**Shape B — static tiered pipeline** (`caro-mvf-40x.mts`): fixed model per phase, no loop — Plan (opus,
+scope/collision check) → Build (sonnet feature slice / haiku boilerplate, parallel disjoint slices) → Gate
+(haiku, cheap scoped pass/fail on the slice's own changed files only) → Verify (sonnet, N-lens adversarial
+`parallel()` fan-out) → Govern (deterministic count check, no model call). Use when the work-unit count is
+known (N slices, N files) and a loop isn't needed.
+
+**Cheap-tier default (governance):**
+- Default every routing/classification/cheap-fix call to `haiku` / `effort: 'low'`. Escalate to `sonnet`/
+  `opus` only when Step 1's risk = high|critical, rls_risk = write|schema, or domain = code|schema.
+- Never let a cheap-tier or docs-lane agent `autoFix` code/schema — flag it and route to a gated lane
+  instead (mirrors the irreversible-ops row of Step 0's decision table).
+- Check `budget.remaining()` before every loop round, not only at the end. Cap the discovery loop (a
+  dry-round counter) and the verify/fix loop independently — two separate caps, not one shared counter.
+
+**Known gotchas (from prior runs — do not rediscover these):**
+1. `agentType` must be a valid workflow-registry type (`fsd-architect`, `supabase-specialist`, etc.) —
+   passing a `.github/agents/*` persona name there fails every spawn. Carry the persona in the prompt text.
+2. Narrow Supabase errors before touching `.data` (`if (error) throw error` first) — an unnarrowed result
+   otherwise throws `Property does not exist on GenericStringError` inside a workflow agent.
+3. Never `cd` to an absolute repo path from inside a worktree-isolated agent — it defeats isolation and
+   can write into a tree another live session owns.
+4. Scope cheap gate checks to the current slice's own changed files — an unscoped gate misattributes
+   full-repo baseline debt to the change under review.
+
+**Reference implementation:** a portable, repo-agnostic template following Shape A ships alongside this
+skill at `multi-model-task-assignment/loop-goal-workflow.template.mts`. Copy it into a repo's
+`.claude/workflows/<name>.mts`, fill in `args.target`/`args.repo`, and adapt the lens list and
+`routeToModel()` gate thresholds to the task at hand.
+
+---
+
+## Step 4 — MAXIMUS AI agent lookup
 
 Query CORTEX for best agent match:
 
@@ -175,7 +244,7 @@ Use when CORTEX is unreachable or for quick lookup.
 
 ---
 
-## Step 4 — Model assignment per agent
+## Step 5 — Model assignment per agent
 
 **Current state (from DB, 2026-06-01):** All 544 agents have `model = 'gpt-4o'` as baseline.
 The `agents.model` field is the override column — use it to assign per-agent models.
@@ -188,6 +257,9 @@ From the 40x Code Review Agent system and Forge routing:
 ASSIGNMENT MATRIX:
 Task complexity    → Model          → When
 ─────────────────────────────────────────────────────────
+Orchestration / Mythos-tier → claude-fable-5             → Session orchestrator, verify-first passes,
+                                                            judgment calls, direct execution when
+                                                            cheaper than delegating (see Step 0)
 P0 critical / GOV  → claude-opus-4-8 (or GPT-5.5 High)  → RLS audit, arch decisions, incident
 P1 deep reasoning  → claude-sonnet-4-6 (or GPT-5.5 Med) → Feature impl, PR review, schema
 P2 implementation  → claude-haiku-4-5 (or GPT-5.5 Low)  → Repetitive, cataloging, docs
@@ -197,7 +269,8 @@ P3 sweep / scan    → gpt-4o-mini                         → Lint, format, bul
 **Tool ↔ model pairings (from 40x-agents master spec):**
 - Cursor BG: GPT-5.5 Medium (default), GPT-5.5 High for bug-hunter
 - Antigravity: Gemini 3 (native), or route via Forge to claude-opus-4-8 for GOV tasks
-- Claude Code: Claude Sonnet 4.6 (default), Opus 4.8 for sentry-incident-responder
+- Claude Code: Claude Fable 5 (orchestrator, Mythos tier), Sonnet/Haiku subagents per Step 0;
+  Opus 4.8 for sentry-incident-responder
 - Glasswing: claude-opus-4-8 (high-context cross-repo requires full reasoning)
 
 ### Updating model assignment in DB
@@ -217,7 +290,7 @@ WHERE cluster_id = 5  -- Database Integrity → security tasks need reasoning
 
 ---
 
-## Step 5 — MAXIMUS PRIME integration check
+## Step 6 — MAXIMUS PRIME integration check
 
 Before finalizing any assignment, check MAXIMUS PRIME gate status:
 
@@ -237,7 +310,7 @@ If PRIME is live and blast radius touches locked files → wait for lock release
 
 ---
 
-## Step 6 — Save assignment to CORTEX + update cortex_tasks
+## Step 7 — Save assignment to CORTEX + update cortex_tasks
 
 ```sql
 -- Record model/agent assignment on the task
@@ -285,9 +358,15 @@ ON CONFLICT (key, repo) DO UPDATE SET value = excluded.value, updated_at = now()
 - PRIME intake required: yes | no | deferred (pre-launch)
 
 ### Forge Routing
-- Tool: {cursor-bg|antigravity|claude-code|glasswing|claude-mac}
+- Tool: {cursor-bg|antigravity|claude-code|glasswing|claude-mac|workflow}
 - Rationale: {one line}
 - Fallback: {tool}
+
+### Workflow Dispatch (only if Tool = workflow)
+- Shape: {A-dynamic-risk-routing-loop | B-static-tiered-pipeline}
+- Goals: {G1..Gn, one line each}
+- Loop caps: {discovery dry-round cap} / {verify-fix attempt cap}
+- Cheap tier: {haiku default; escalation trigger}
 
 ### MAXIMUS AI Assignment
 - Agent: {id} — {name}

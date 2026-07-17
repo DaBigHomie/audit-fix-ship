@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx tsx \"${MANAGEMENT_GIT_ROOT:-$MGMT_ROOT}/documentation-standards/scripts/continue-cycles-launcher.mts\" --format=md 2>/dev/null || true"
+            "command": "npx tsx \"${MANAGEMENT_GIT_ROOT:-$MGMT_ROOT}/maximus-ai/scripts/continue-cycles-launcher.mts\" --format=md 2>/dev/null || true"
           }
         ]
       }

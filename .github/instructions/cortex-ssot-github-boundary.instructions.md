@@ -1,6 +1,7 @@
 ---
 applyTo: "**"
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/cortex-ssot-github-boundary.instructions.md -- do not edit; run sync-instructions.mts -->
 
 # CORTEX-first, GitHub-last — SSOT and gate-authority boundary
 

@@ -1,6 +1,7 @@
 ---
 applyTo: "**"
 ---
+<!-- GENERATED FROM maximus-ai/.github/instructions/ugwtf-workflow.instructions.md -- do not edit; run sync-instructions.mts -->
 
 # UGWTF — Unified GitHub Workflow Task Framework
 

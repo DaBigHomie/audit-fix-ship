@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.github/instructions/workstream-fork.instructions.md -- do not edit; run sync-instructions.mts -->
 # workstream-fork (Antigravity)
 
 Fork long sessions at **workstream phase boundaries**. Do not replay full chat — use context manifest SSOT.

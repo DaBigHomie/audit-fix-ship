@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-revoke-authorization.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-revoke-authorization — Revoke a standing authorization
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

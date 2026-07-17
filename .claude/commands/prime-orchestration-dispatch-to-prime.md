@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-dispatch-to-prime.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-dispatch-to-prime — Route a concern to Maximus Prime via `@prime`
 
 **Model:** claude-opus (orchestrator) · **MCP tool:** `prime_dispatch`

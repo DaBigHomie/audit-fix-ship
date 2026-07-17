@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-dispatch-template.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-dispatch-template — Emit a BG-dispatch prompt template
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

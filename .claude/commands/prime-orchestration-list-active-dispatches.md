@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-list-active-dispatches.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-list-active-dispatches — List active background dispatches
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

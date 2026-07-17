@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-continue-repo.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-continue-repo — Repo-scope standing menu
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-adopt.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-adopt — Session-init for un-queued PrimeO work
 
 **Model:** claude-opus (orchestrator) · **Skill:** `prime-orchestrator-adopt`

@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/doc-forensic-inventory.md -- do not edit; run sync-commands.mts -->
 # /doc-forensic-inventory — Forensic doc update inventory
 
 **Hub skill:** `documentation-standards/skills/doc-forensic-inventory/SKILL.md`  

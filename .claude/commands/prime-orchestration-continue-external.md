@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-continue-external.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-continue-external — Human-review standing menu
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestrator-continuation`

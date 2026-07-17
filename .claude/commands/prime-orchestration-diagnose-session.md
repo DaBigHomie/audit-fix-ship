@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-diagnose-session.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-diagnose-session — Portable session-diagnostic composite
 
 **Model:** claude-opus (orchestrator) · **Skill:** `prime-orchestrator-diagnose`

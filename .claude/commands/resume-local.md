@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/resume-local.md -- do not edit; run sync-commands.mts -->
 # /resume-local — Resume an ATB cloud session in your local terminal
 
 Generate the exact shell sequence + a seeded continuation prompt to pick up a Claude Code **web/cloud** session on your **local Mac terminal** with full context. Use at the end of a cloud session, or any time you want to hand work off to a local checkout.

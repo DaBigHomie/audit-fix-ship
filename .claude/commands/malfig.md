@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/malfig.md -- do not edit; run sync-commands.mts -->
 # MALFIG Gatekeeper Review (`/malfig`)
 
 Run a MALFIG compliance review against the current repo and session work.

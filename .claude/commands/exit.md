@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/exit.md -- do not edit; run sync-commands.mts -->
 # Session exit (`/exit`)
 
 Run this when the user wants a **clean session close**: processes checked, work committed, manifests written, **Management / Slack "handoffs"** notified, optional **partner-facing Slack summary** (plain language, diagrams, links for Jay), **40x** review queued for background fix agents.

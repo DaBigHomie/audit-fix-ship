@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/exit-reference.md -- do not edit; run sync-commands.mts -->
 # Exit Skill Reference
 
 ## Manifest skeleton

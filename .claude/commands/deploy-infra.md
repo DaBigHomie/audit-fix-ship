@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/deploy-infra.md -- do not edit; run sync-commands.mts -->
 # /deploy-infra — Deploy Infra Cluster
 
 **Model:** claude-sonnet  

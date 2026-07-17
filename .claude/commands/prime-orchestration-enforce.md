@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/prime-orchestration-enforce.md -- do not edit; run sync-commands.mts -->
 # /prime-orchestration-enforce — Chain enforcer + 4-gate for a scope
 
 **Model:** claude-opus (orchestrator) · **Skill:** `orchestration-standards-enforcer`

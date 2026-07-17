@@ -1,3 +1,4 @@
+<!-- GENERATED FROM maximus-ai/.claude/commands/malfig-project-system-prompt.md -- do not edit; run sync-commands.mts -->
 # Claude.ai / Cowork Project System Prompt — MALFIG + FORGE
 
 Paste this into Claude.ai > Projects > "DaBigHomie Workspace" > Instructions field.
